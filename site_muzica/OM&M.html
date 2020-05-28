@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+			<title>MUZICA ROCK</title>
+        <link rel="stylesheet" href="css/style.css ">
+		<script type="text/javascript">
+			<!-->
+			var image1=new Image()
+			image1.src="photo/om2.jpg"
+			var image2=new Image()
+			image2.src="photo/om3.jpg"
+			var image3=new Image()
+			image3.src="photo/om4.jpg"
+			var image4=new Image()
+			image4.src="photo/om5.jpg"
+			var image5=new Image()
+			image5.src="photo/om6.jpg"
+			//-->
+		</script>
+    </head>
+    <body>
+
+        <ul>
+			<li><a href="acasa.html">Acasa</a></li>
+			<li><a href="istoria.html">Istorie</a></li>
+			<li><a href="genuri.html">Genuri</a></li>
+			<li><a href="trupe.html">Trupe</a></li>   
+		</ul>
+
+	<br>
+	
+	<img src="photo/om2.ipg" id="nup" name="slide">	
+		<script type="text/javascript">
+			<!--	
+			var step=1
+			function slideit()
+			{	document.images.slide.src=eval("image"+step+".src")
+				if(step<5)
+					step++
+				else
+					step=1
+				setTimeout("slideit()",2000)
+			}
+			slideit()
+			//->
+		</script>
+	
+	<div id="info">
+		<h1>Of Mice and Men</h1>
+		<img src="photo/om1.jpg" id="image">
+		<p>Of Mice & Men este o trupa americana de heavy metal din California.  Grupul a fost fondat de Austin Carlile si Jaxin Hall la mijlocul anului 2009, 
+dupa plecarea de la Carlile din "Attack Attack!". Incepand cu anul 2009 trupa a lansat 3 albume de studio. Numele trupei este derivat din romanul cu acelasi 
+titlu (John Steinbeck).</p>
+	
+		<h1>Membri:</h1>
+		<p class="lista">	
+			*	Austin Carlile<br>
+			*	Aaron Pauley<br>
+			*	Alan Ashby<br>
+			*	Phil Manansala<br>
+			*	Valentino Arteaga</p>
+
+		<h1>Fosti membri:</h1>
+		<p class="lista">	
+			*	Jaxin Hall<br>
+			*	Jerry Roush<br>
+			*	Jon Kintz<br>
+			*	Shayley Bourget</p>
+			
+		<h1>Discografie:</h1>
+		<p class="lista">
+			*	Of Mice & Men (2010)<br>
+			*	The Flood (2011)<br>
+			*	Restoring Force (2014)<br></p>
+			
+		<br>
+		<video id="video" controls autoplay>
+		<source src="video/OMM.mp4" type="video/mp4">
+		</video>
+		
+		<p><a href="trupe.html"><- INAPOI</a></p>
+	</div>
+	
+    </body>
+</html>
