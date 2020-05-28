@@ -1,0 +1,84 @@
+#video
+		{	margin-left: 15%;
+			width: 70%;
+			height: 50%;
+		}
+		#image
+		{	float: right;
+			width: 42%;
+		}
+		.lista
+		{	margin-left: 3%;
+		}
+		
+		#nup
+		{ 	float: left;
+			padding: 0px;
+			width: 30%;
+			height:650px;
+			margin-left: 1%;
+		}
+		
+		h1
+		{	color:red;
+            font-family:"Andalus",sans-serif;
+			padding:1%;
+		}
+		
+		h2
+		{	color:white;
+            font-family:"Andalus",sans-serif;
+			padding:1%;
+		}
+
+		body
+        {	background: rgb(99,99,99);  
+		}
+		#info
+		{	background: rgb(0,0,0);
+            width: 68%;
+			height:650px;
+			overflow-y: auto;
+            overflow-x: hidden;
+			align: center;
+			border: 3px rgb(99,99,99);
+        }
+
+		p
+        {   color:white;
+            font-size:20px;
+            font-family:"Andalus",sans-serif;
+			padding:1%;
+			margin-left: 1%;
+        }
+
+        ul
+		{   list-style-type:none;
+	        margin:0%;
+	        padding:0%;
+	        overflow:hidden;
+        }
+
+        li
+		{	float:left;
+            display:block;
+			width:23%;
+			font-weight:bold;
+			font-size:25px;
+			color:white;
+			background-color:black;
+			text-align:center;
+			padding:5px;
+			font-family:"Andalus",sans-serif;
+			margin-left:1%;
+        }
+
+        a:link,a:visited
+        {   color: rgb(255, 0, 0);
+            text-decoration:none;
+        }
+
+		a:hover,a:active
+        {   font-family:"Andalus",sans-serif;
+            color:white;
+        }
